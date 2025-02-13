@@ -18,6 +18,7 @@ body {
    padding: 48px;
    border-bottom: 1px solid #eeeeee1a;
    align-items: center;
+   flex-wrap: wrap;
 }
 
 .brand {
@@ -31,12 +32,13 @@ body {
 .navigation {
    display: flex;
    list-style-type: none;
-   padding: 0 72px;
+   padding: 0 96px;
    align-items: center;
+   gap: 48px;
 }
 
 .nav-item {
-   margin: 0 24px;
+   /* margin: 0 24px; */
 }
 
 .nav-link {
@@ -50,7 +52,7 @@ body {
 /* Start of Header */
 .header {
    display: flex;
-   padding: 117px 152px 302.35px 180px;
+   padding: 117px 152px 64px 180px;
    justify-content: space-between;
    align-items: center;
    flex-wrap: wrap;
@@ -101,15 +103,14 @@ body {
 }
 
 .header-down {
-   position: absolute;
    width: 96px;
    height: 96px;
-   top: 864px;
-   left: 464px;
    background: #393e46bf;
    display: flex;
    justify-content: center;
    align-items: center;
+   margin-top: 243px;
+   margin-left: 284px;
 }
 /* End of Header */
 
@@ -168,7 +169,7 @@ body {
 
 .works {
    margin: 0 auto;
-   padding: 268px 167.67px 269px 117px;
+   padding: 268px 48px 269px 117px;
 }
 
 .works-header {
@@ -189,11 +190,11 @@ body {
 
 .works-btn-container {
    display: flex;
+   flex-wrap: wrap;
    gap: 16px;
 }
 
 .btn-works {
-   height: 47px;
    padding: 10px 32px;
    border-radius: 24px;
    background-color: #393e4680;
@@ -241,12 +242,8 @@ body {
    }
 }
 
-.form-left {
-   position: relative;
-}
-
 .form-heading {
-   width: 600px;
+   padding-right: 96px;
    font-weight: 700;
    font-size: 64px;
    line-height: 80px;
@@ -258,9 +255,7 @@ body {
 }
 
 .form-img {
-   position: absolute;
-   top: 150px;
-   left: 221px;
+   padding-left: 221px;
 }
 
 .form-right input {
@@ -270,6 +265,7 @@ body {
 
 .form-name-email {
    display: flex;
+   flex-wrap: wrap;
    gap: 24px;
    padding-bottom: 24px;
    input {
@@ -278,8 +274,16 @@ body {
    }
 }
 
+#name {
+   width: 100%;
+}
+
+#email {
+   width: 100%;
+}
+
 #message {
-   width: 600px;
+   width: 100%;
    height: 280px;
    border-radius: 16px;
    padding: 16px 24px;
