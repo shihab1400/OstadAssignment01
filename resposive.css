@@ -53,6 +53,18 @@
       }
    }
 
+   .about-me .row {
+      padding: 230px 0 163px 0;
+   }
+
+   .about-me-left {
+      padding: 0 48px;
+   }
+
+   .about-me-right img {
+      width: 300px;
+   }
+
    .form-img {
       padding-left: 96px;
       width: 200px;
