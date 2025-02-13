@@ -1,0 +1,364 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+
+body {
+   background: #222831;
+   font-family: "Poppins", serif;
+}
+
+/* Start of Navigation */
+.sec-nav {
+   display: flex;
+   justify-content: space-between;
+   padding: 48px;
+   border-bottom: 1px solid #eeeeee1a;
+   align-items: center;
+}
+
+.brand {
+   color: #eee;
+   font-size: 24px;
+   font-weight: 700;
+   font-family: "Oswald", serif;
+   margin-left: 48px;
+}
+
+.navigation {
+   display: flex;
+   list-style-type: none;
+   padding: 0 72px;
+   align-items: center;
+}
+
+.nav-item {
+   margin: 0 24px;
+}
+
+.nav-link {
+   text-decoration: none;
+   color: #eee;
+   font-size: 18px;
+   font-weight: 400;
+}
+/* End of Navigation */
+
+/* Start of Header */
+.header {
+   display: flex;
+   padding: 117px 152px 302.35px 180px;
+   justify-content: space-between;
+   align-items: center;
+   flex-wrap: wrap;
+}
+
+.header-heading {
+   font-weight: 700;
+   font-size: 96px;
+   line-height: 96px;
+   letter-spacing: 0%;
+   color: #eee;
+   span {
+      color: #00adb5;
+   }
+}
+
+.btn-header {
+   font-weight: 700;
+   font-size: 18px;
+   line-height: 27px;
+   letter-spacing: 0%;
+   color: #eee;
+   border: none;
+   height: 47px;
+   padding: 10px 32px;
+   border-radius: 24px;
+   background: #393e46bf;
+   margin-top: 48px;
+   transition: 0.2s;
+}
+
+.btn-header:hover {
+   background: #00adb5;
+}
+
+.btn-hire {
+   width: 136px;
+   margin-right: 24px;
+}
+
+.btn-download {
+   width: 223px;
+   display: inline-flex;
+   align-items: center;
+   span {
+      margin-right: 10px;
+   }
+}
+
+.header-down {
+   position: absolute;
+   width: 96px;
+   height: 96px;
+   top: 864px;
+   left: 464px;
+   background: #393e46bf;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+/* End of Header */
+
+/* Start of About Me */
+.about-me .row {
+   padding: 230px 110.67px 163px 96px;
+   display: flex;
+   justify-content: center;
+   gap: 179px;
+   border-bottom: 1px solid #eeeeee1a;
+   margin-bottom: 132px;
+}
+
+.about-me-left {
+   width: 389px;
+   margin-top: 26px;
+}
+
+.about-me-heading {
+   font-weight: 700;
+   font-size: 64px;
+   line-height: 96px;
+   letter-spacing: 0%;
+   color: #eee;
+   span {
+      color: #00adb5;
+   }
+}
+
+.about-me-paragraph {
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 27px;
+   letter-spacing: 0%;
+   color: #eee;
+   span {
+      font-weight: 700;
+   }
+}
+
+.about-me-right {
+   width: 665.33px;
+   height: 499px;
+   background: url(./img/about\ me1.png);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+/* End of About Me */
+
+/* Start of Works */
+.works-wrapper {
+   background: url("./img/works.png");
+   background-repeat: repeat;
+}
+
+.works {
+   margin: 0 auto;
+   padding: 268px 167.67px 269px 117px;
+}
+
+.works-header {
+   margin-bottom: 48px;
+}
+
+.works-heading {
+   font-weight: 700;
+   font-size: 64px;
+   line-height: 96px;
+   letter-spacing: 0%;
+   color: #eee;
+   margin-bottom: 16px;
+   span {
+      color: #00adb5;
+   }
+}
+
+.works-btn-container {
+   display: flex;
+   gap: 16px;
+}
+
+.btn-works {
+   height: 47px;
+   padding: 10px 32px;
+   border-radius: 24px;
+   background-color: #393e4680;
+   backdrop-filter: blur(8px);
+   border: none;
+   color: #eee;
+   transition: 0.2s;
+}
+
+.btn-works:hover {
+   background: #00adb5;
+}
+
+.works-card-wrapper {
+   display: flex;
+   /* justify-content: center; */
+   align-items: center;
+   flex-wrap: wrap;
+   width: 100%;
+   gap: 48px;
+}
+
+.works-card {
+   width: 368px;
+   height: 280px;
+   border-radius: 16px;
+   background: #393e4680;
+   backdrop-filter: blur(4px);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+/* End of Works */
+
+/* Start of Form */
+.form {
+   padding: 258px 96px;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   gap: 48px;
+   label {
+      color: #eee;
+      margin-bottom: 10px;
+   }
+}
+
+.form-left {
+   position: relative;
+}
+
+.form-heading {
+   width: 600px;
+   font-weight: 700;
+   font-size: 64px;
+   line-height: 80px;
+   letter-spacing: 0%;
+   color: #eee;
+   span {
+      color: #00adb5;
+   }
+}
+
+.form-img {
+   position: absolute;
+   top: 150px;
+   left: 221px;
+}
+
+.form-right input {
+   border-radius: 16px;
+   padding: 16px 24px;
+}
+
+.form-name-email {
+   display: flex;
+   gap: 24px;
+   padding-bottom: 24px;
+   input {
+      width: 288px;
+      height: 59px;
+   }
+}
+
+#message {
+   width: 600px;
+   height: 280px;
+   border-radius: 16px;
+   padding: 16px 24px;
+   resize: none;
+}
+
+.form-btn {
+   font-weight: 700;
+   font-size: 18px;
+   line-height: 27px;
+   letter-spacing: 0%;
+   color: #eee;
+   border: none;
+   height: 47px;
+   padding: 10px 32px;
+   border-radius: 24px;
+   background: #00adb5;
+   margin-top: 48px;
+   transition: 0.2s;
+   display: inline-flex;
+   align-items: center;
+   span {
+      text-shadow: 0px 4px 4px #00000080;
+      margin-right: 10px;
+   }
+}
+/* End of Form */
+
+/* Start of Footer */
+footer {
+   display: flex;
+   flex-direction: column;
+   gap: 38px;
+   align-items: center;
+   position: relative;
+   padding: 100px 0 167px;
+}
+
+.footer-ul {
+   display: flex;
+   gap: 48px;
+   list-style-type: none;
+   a {
+      text-decoration: none;
+      color: #eee;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 27px;
+      letter-spacing: 0%;
+   }
+   img {
+      padding-right: 3px;
+   }
+}
+
+.socials-ul {
+   display: flex;
+   list-style-type: none;
+   gap: 24px;
+}
+
+.socials-list {
+   width: 48px;
+   height: 48px;
+   border-radius: 50px;
+   background: #393e46;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.footer-text {
+   position: absolute;
+   right: 96px;
+   bottom: 48px;
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 27px;
+   letter-spacing: 0%;
+   color: #eeeeeebf;
+}
+/* End of Footer */
